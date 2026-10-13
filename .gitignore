@@ -35,9 +35,12 @@ build/
 .vercel/
 
 # Data policy
-# 원본/가공 CSV는 라이선스 확인 전까지 커밋하지 않음
+# 원본/가공 데이터 파일은 라이선스 확인 전까지 커밋하지 않음
 # 필요 시 README에 수집 방법을 문서화하고 사용자가 직접 내려받도록 안내
 data/raw/*.csv
+data/raw/*.xls
 data/raw/*.xlsx
 data/processed/*.csv
+data/processed/*.xls
 data/processed/*.xlsx
+
